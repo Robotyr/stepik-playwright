@@ -28,7 +28,7 @@ jobs:
       # Runs python file 
       - uses: actions/setup-python@v5
         with:
-        python-version: '3.12'
+          python-version: '3.12'
       - run: python main.py
 
       # Runs a single command using the runners shell
